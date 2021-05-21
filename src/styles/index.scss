@@ -11,3 +11,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.boxList{
+    background-color: ghostwhite ;
+    border:2px solid gray;
+    width:70vw;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 1rem;
+}
+
+.form-control{
+    border-radius: 1rem;
+}
+ 
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    border: black;
+}
